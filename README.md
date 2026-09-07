@@ -31,7 +31,7 @@ formations, messages, profil, réglages) branchée sur une vraie base de donnée
    cp .env.example .env
    ```
    Remplis `DATABASE_URL` avec ta chaîne de connexion, génère un `SESSION_SECRET`
-   (`openssl rand -base64 32`), et choisis `ADMIN_EMAIL` / `ADMIN_PASSWORD`.
+   (`openssl rand -base64 32`), et choisis 
 
 4. **Créer les tables**
    ```bash
